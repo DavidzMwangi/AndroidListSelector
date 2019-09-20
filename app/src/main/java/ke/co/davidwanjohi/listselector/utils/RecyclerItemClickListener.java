@@ -7,9 +7,7 @@ import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-/**
- * Created by Jaison on 21/10/15.
- */
+
 public class RecyclerItemClickListener implements RecyclerView.OnItemTouchListener
 {
     public static interface OnItemClickListener
