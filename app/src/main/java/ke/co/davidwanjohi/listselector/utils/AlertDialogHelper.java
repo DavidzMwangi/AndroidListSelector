@@ -11,9 +11,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AlertDialog;
 
-/**
- * Created by Jaison on 04/10/16.
- */
+
 
 public class AlertDialogHelper
 {
