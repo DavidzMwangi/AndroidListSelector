@@ -50,9 +50,9 @@ public class MultiSelectAdapter extends RecyclerView.Adapter<MultiSelectAdapter.
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        SampleModel movie = usersList.get(position);
-        holder.name.setText(movie.getName());
-        holder.posting.setText(movie.getPosting());
+        SampleModel dataSet = usersList.get(position);
+        holder.name.setText(dataSet.getName());
+        holder.posting.setText(dataSet.getPosting());
 
         if(selected_usersList.contains(usersList.get(position)))
             holder.ll_listitem.setBackgroundColor(ContextCompat.getColor(mContext, R.color.list_item_selected_state));
@@ -63,7 +63,10 @@ public class MultiSelectAdapter extends RecyclerView.Adapter<MultiSelectAdapter.
 
     @Override
     public int getItemCount() {
-        return usersList.size();
+
+        return usersList.size(); //item count
+
     }
+
 }
 

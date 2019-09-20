@@ -124,8 +124,8 @@ public class MainActivity extends AppCompatActivity implements AlertDialogHelper
         return super.onOptionsItemSelected(item);
     }
     public void data_load() {
-        String name[] = {"Gokul", "Rajesh", "Ranjith", "Madhu", "Ameer", "Sonaal"};
-        String posting[] = {"Manager", "HR", "Android Developer", "iOS Developer", "Team Leader", "Designer"};
+        String name[] = {"David", "Edwin", "Kimani", "Edwin", "Simon", "Miriam"};
+        String posting[] = {"Manager", "Guard", "Android Developer", "Web Developer", "Team Leader", "Designer"};
 
         for (int i = 0; i < name.length; i++) {
             SampleModel mSample = new SampleModel(name[i], posting[i]);
