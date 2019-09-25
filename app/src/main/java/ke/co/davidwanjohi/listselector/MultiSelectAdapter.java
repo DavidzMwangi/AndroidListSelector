@@ -29,7 +29,6 @@ public class MultiSelectAdapter extends RecyclerView.Adapter<MultiSelectAdapter.
             posting = (TextView) view.findViewById(R.id.tv_posting);
             name = (TextView) view.findViewById(R.id.tv_user_name);
             ll_listitem=(LinearLayout)view.findViewById(R.id.ll_listitem);
-
         }
     }
 
